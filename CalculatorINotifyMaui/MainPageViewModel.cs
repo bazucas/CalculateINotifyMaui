@@ -1,7 +1,9 @@
-﻿using System.Windows.Input;
+﻿using PropertyChanged;
+using System.Windows.Input;
 
 namespace CalculatorINotifyMaui;
 
+[AddINotifyPropertyChangedInterface]
 public class MainPageViewModel
 {
     public int Number1 { get; set; }
